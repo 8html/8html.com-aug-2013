@@ -1,0 +1,29 @@
+title: 8HTML
+
+keywords: 8HTML
+
+description: 8HTML
+
+url: http://www.8html.com
+
+permalink: /:categories/:title.html
+
+relative_permalinks: false
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+  cache: true
+  cache_assets: true
+  gzip: []
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Rakefile
+  - README.md
